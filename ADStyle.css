@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* HERO */
 .hero {
   background: url(images/header-image.jpg) center/cover no-repeat;
   height: 300px;

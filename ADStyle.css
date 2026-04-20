@@ -4,7 +4,7 @@ body {
 }
 
 .hero {
-  background: url(images/header-image.jpg) center/cover no-repeat;
+  background: url(Adopt-Dog/header-image.jpg) center/cover no-repeat;
   height: 300px;
   position: relative;
 }

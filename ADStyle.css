@@ -75,6 +75,29 @@ img {
   height: auto;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+  font-size: 28px;
+}
+
+.tagline {
+  color: #6bbf59;
+  font-style: italic;
+  margin-top: 5px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

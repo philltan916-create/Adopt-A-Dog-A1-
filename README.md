@@ -21,3 +21,11 @@ Blog Page:
 Checkout Page:
 - Summary of the selected dogs you are adopting
 - Total cost of adoption.
+
+Language I used:
+- HTML
+- CSS
+
+What I'd like to add in the future:
+- Javasript to help with the cart funtion
+- Overall make the website better for mobile devices and non PC devices

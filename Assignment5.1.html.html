@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Square a Number</title>
+</head>
+<body>
+
+  <h1>Square Calculator</h1>
+  <button id="squareButton">Enter a Number</button>
+
+  <script>
+    function squareNumber(number) {
+      return number * number;
+    }
+
+    document.getElementById("squareButton").addEventListener("click", function () {
+      let userInput = prompt("Enter a number:");
+
+      let number = Number(userInput);
+
+      let result = squareNumber(number);
+
+      alert("The square of " + number + " is " + result);
+    });
+  </script>
+
+</body>
+</html>

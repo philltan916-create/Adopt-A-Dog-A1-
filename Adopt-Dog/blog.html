@@ -1,53 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Blog</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - AdoptADog</title>
+
   <link rel="stylesheet" href="ADStyle.css">
 </head>
 
 <body>
 
-<header>
-  <div class="container">
-    <h1>ADOPTADOG</h1>
+  <section class="hero">
+    <div class="overlay">
 
-    <nav>
-      <a href="homepage.html">Home</a>
-      <a href="dogs.html">Dogs</a>
+      <div class="hero-content container">
+
+        <div class="hero-left">
+          <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+
+            <div>
+              <h1>ADOPTADOG</h1>
+              <p class="tagline">
+                Seattle's premiere dog adoption agency
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <p class="cart">$0.00</p>
+          <button class="checkout-btn">Checkout</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <nav class="breadcrumb">
+
+    <div class="container">
+      <a href="index.html">Home</a> /
+      <a href="dogs.html">Dogs</a> /
       <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    </div>
+
+  </nav>
+
+  <main class="container blog-page">
+
+    <h2 class="page-title">AdoptADog Blog</h2>
+
+    <div id="blog-post-container"></div>
+
+  </main>
+
+ <footer>
+  <h2>ADOPTADOG</h2>
+  <p>Aborpos nisto inci tet aut que volupti...</p>
+
+  <div class="footer-links">
+    <a href="homepage.html">Home</a> /
+    <a href="dogs.html">Dogs</a> /
+    <a href="checkout.html">Contact</a>
   </div>
-</header>
 
-<section class="container">
-  <h2>Adoptadog Blog</h2>
-
-  <article>
-    <h3>Traveling With Your Dog</h3>
-    <p>Tips for traveling safely with your dog...</p>
-  </article>
-
-  <article>
-    <h3>How To Walk Multiple Dogs</h3>
-    <p>Managing more than one dog...</p>
-  </article>
-
-  <article>
-    <h3>Teach Your Dog To Fetch!</h3>
-    <p>Fun training techniques...</p>
-  </article>
-
-</section>
-
-<section class="container">
-  <h2>Checkout</h2>
-  <p>Total: $1234.56</p>
-</section>
-
-<footer>
-  <p> 2018 Adoptadog, LLC | Seattle, WA</p>
+  <p class="copyright">
+     2018 Adoptadog, LLC | Seattle, WA
+  </p>
 </footer>
+
+
+
+  <script src="adoptdog.js"></script>
 
 </body>
 </html>

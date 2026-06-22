@@ -1,27 +1,186 @@
-<div class="container">
-  <div class="card">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AdoptADog</title>
+  <link rel="stylesheet" href="ADStyle.css">
+</head>
 
-    <div class="card__profile">
-      <img src="images/profile.jpg" alt="Steve Smith" class="card__image">
+<body>
 
-      <h1>Steve Smith</h1>
+<section class="hero">
+  <div class="overlay">
+    <div class="hero-content container">
+      
+      <div class="hero-left">
+        <h1>ADOPTADOG</h1>
+        <p>Seattle's premiere dog adoption agency</p>
+      </div>
 
-      <p class="card__title">Project Manager</p>
+      <div class="hero-right">
+        <p class="cart">$1234.56</p>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="breadcrumb">
+  <div class="container">
+    <a href="homepage.html">Home</a> /
+    <a href="dogs.html">Dogs</a> /
+    <a href="blog.html">Blog</a>
+  </div>
+</div>
+
+<section class="container intro">
+  <img src="home-intro.jpg" />
+
+  <div>
+    <h2>Adopt A Dog</h2>
+    <p>
+      Iduciendisite quo magnatem iuntum quid quaest ea am,
+      tenderumet adis dolenem quidustrum fuga...
+    </p>
+  </div>
+</section>
+
+<section class="container dogs">
+
+  <div class="grid">
+
+    <div class="dog-card">
+      <img 
+        src="murphy-card.jpg"
+        class="dog-image"
+        data-name="Murphy"
+        data-breed="Golden Retriever"
+        data-cost="123.45"
+        >
+
+
+      <h3>Murphy</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
     </div>
 
-    <div class="card__details">
-      <p><strong>Company:</strong> Front End Dev Co</p>
-      <p><strong>Experience:</strong> 3 years</p>
-      <p><strong>School:</strong> UW</p>
-      <p><strong>Major:</strong> Marketing</p>
-      <p><strong>Email:</strong> steve@fedc.com</p>
+    <div class="dog-card">
+      <img 
+        src="poppy-card.jpg"
+        class="dog-image"
+        data-name="Poppy"
+        data-breed="Labrador Retriever"
+        data-cost="123.45"
+      >
+      <h3>Poppy</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
+    </div>
 
-      <div class="linkedin">
-        <img src="images/linkedin.png" alt="LinkedIn">
+    <div class="dog-card">
+      <img 
+        src="jack-card.jpg"
+        class="dog-image"
+        data-name="Jack"
+        data-breed="Beagle"
+        data-cost="123.45"
+        >
+      <h3>Jack</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
+    </div>
 
-        <a href="#">steve.linkedinprofile.com</a>
-      </div>
+    <div class="dog-card">
+      <img 
+        src="duffy-card.jpg"
+        class="dog-image"
+        data-name="Duffy"
+        data-breed="Dalmatian"
+        data-cost="123.45"
+        >
+      <h3>Duffy</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
+    </div>
+
+    <div class="dog-card">
+      <img 
+        src="lucas-card.jpg"
+        class="dog-image"
+        data-name="Lucas"
+        data-breed="German Shepherd"
+        data-cost="123.45"
+        >
+      <h3>Lucas</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
+    </div>
+
+    <div class="dog-card">
+      <img 
+        src="jake-card.jpg"
+        class="dog-image"
+        data-name="Jake"
+        data-breed="Bulldog"
+        data-cost="123.45"
+        >
+      <h3>Jake</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
+    </div>
+
+    <div class="dog-card">
+      <img 
+        src="angus-card.jpg"
+        class="dog-image"
+        data-name="Angus"
+        data-breed="Poodle"
+        data-cost="123.45"
+        >
+      <h3>Angus</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
+    </div>
+
+    <div class="dog-card">
+      <img 
+        src="violet-card.jpg"
+        class="dog-image"
+        data-name="Violet"
+        data-breed="Cocker Spaniel"
+        data-cost="123.45"
+        >
+      <h3>Violet</h3>
+      <p>Cost to Adopt: $123.45</p>
+      <button>Adopt</button>
     </div>
 
   </div>
-</div>
+
+  <div class="center">
+    <button class="more-btn">See More Dogs</button>
+  </div>
+
+</section>
+
+<footer>
+  <h2>ADOPTADOG</h2>
+  <p>Aborpos nisto inci tet aut que volupti...</p>
+
+  <div class="footer-links">
+    <a href="homepage.html">Home</a> /
+    <a href="dogs.html">Dogs</a> /
+    <a href="checkout.html">Contact</a>
+  </div>
+
+  <p class="copyright">
+     2018 Adoptadog, LLC | Seattle, WA
+  </p>
+</footer>
+
+<script src="adoptdog.js"></script>
+
+
+</body>
+</html>
